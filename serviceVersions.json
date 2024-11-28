@@ -1,0 +1,19 @@
+{
+    "PROXY": {
+        "VELOCITY": {
+            "download": "https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/451/downloads/velocity-3.4.0-SNAPSHOT-451.jar"
+        },
+        "BUNGEECORD": {
+            "download": "https://ci.md-5.net/job/BungeeCord/lastStableBuild/artifact/bootstrap/target/BungeeCord.jar"
+        }
+    },
+    "SERVER": {
+        "PAPER": {
+            "versions": {
+                "1_21_3": {
+                    "download": "https://api.papermc.io/v2/projects/paper/versions/1.21.3/builds/68/downloads/paper-1.21.3-68.jar"
+                }
+            }
+        }
+    }
+}
