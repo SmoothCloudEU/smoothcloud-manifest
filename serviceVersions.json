@@ -12,6 +12,21 @@
             "versions": {
                 "1_21_3": {
                     "download": "https://api.papermc.io/v2/projects/paper/versions/1.21.3/builds/68/downloads/paper-1.21.3-68.jar"
+                },
+                "1_21_1": {
+                    "download": "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/132/downloads/paper-1.21.1-132.jar"
+                },
+                "1_20_6": {
+                    "download": "https://api.papermc.io/v2/projects/paper/versions/1.20.6/builds/151/downloads/paper-1.20.6-151.jar"
+                },
+                "1_20_4": {
+                    "download": "https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/499/downloads/paper-1.20.4-499.jar"
+                },
+                "1_20_2": {
+                    "download": "https://api.papermc.io/v2/projects/paper/versions/1.20.2/builds/318/downloads/paper-1.20.2-318.jar"
+                },
+                "1_20_1": {
+                    "download": "https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar"
                 }
             }
         }
