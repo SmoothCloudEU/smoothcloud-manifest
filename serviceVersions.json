@@ -29,6 +29,31 @@
                     "download": "https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar"
                 }
             }
+        },
+        "VANILLA": {
+            "versions": {
+                "1_21_3": {
+                    "download": "https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar"
+                },
+                "1_21_1": {
+                    "download": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar"
+                },
+                "1_21": {
+                    "download": "https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar"
+                },
+                "1_20_6": {
+                    "download": "https://piston-data.mojang.com/v1/objects/145ff0858209bcfc164859ba735d4199aafa1eea/server.jar"
+                },
+                "1_20_4": {
+                    "download": "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar"
+                },
+                "1_20_2": {
+                    "download": "https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar"
+                },
+                "1_20_1": {
+                    "download": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar"
+                }
+            }
         }
     }
 }
