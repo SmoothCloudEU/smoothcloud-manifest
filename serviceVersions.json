@@ -78,6 +78,9 @@
             }
         },
         "FOLIA": {
+            "1_21_1": {
+                "url": "https://api.papermc.io/v2/projects/folia/versions/1.21.4/builds/1/downloads/folia-1.21.4-1.jar"
+            },
             "1_20_6": {
                 "url": "https://api.papermc.io/v2/projects/folia/versions/1.20.6/builds/6/downloads/folia-1.20.6-6.jar"
             },
