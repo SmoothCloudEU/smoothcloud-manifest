@@ -14,7 +14,7 @@ if [ -z "$LAUNCHER_DOWNLOAD_URL" ]; then
 fi
 
 echo "Downloading the launcher file..."
-curl -L $LAUNCHER_DOWNLOAD_URL
+curl -L -o "smoothcloud-launcher-1.0.0-dev.jar" $LAUNCHER_DOWNLOAD_URL
 echo "Launcher file downloaded."
 
 # Download the start script and save it
