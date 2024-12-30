@@ -22,4 +22,6 @@ echo "Downloading the start script..."
 curl -L -o "start.sh" $START_SCRIPT_URL
 echo "Start script downloaded."
 
+rm install.sh
+
 echo "Done."
