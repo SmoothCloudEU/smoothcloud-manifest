@@ -14,4 +14,4 @@
 :: 
 
 :: Start the application in a new command prompt window
-start "" java -jar smoothcloud-launcher.jar
+start "SmoothCloud" java -jar smoothcloud-launcher.jar
