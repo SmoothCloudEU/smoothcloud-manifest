@@ -3,21 +3,27 @@
 REPO_URL="https://github.com/SmoothCloudEU/smoothcloud"
 
 API_URL="https://api.github.com/repos/SmoothCloudEU/smoothcloud/releases/latest"
+MANIFEST_URL="https://github.com/SmoothCloudEU/smoothcloud-manifest/raw/refs/heads/master/"
 
-DOWNLOAD_URL=$(curl -s $API_URL | jq -r '.assets[] | select(.name | endswith(".zip")) | .browser_download_url')
+LAUNCHER_DOWNLOAD_URL=$(curl -s $API_URL | jq -r '.assets[] | select(.name | endswith(".jar")) | .browser_download_url')
+START_SCRIPT_URL=$(curl -s $API_URL + "start.sh")
 
-if [ -z "$DOWNLOAD_URL" ]; then
-  echo "Zip file can't be found!"
+if [ -z "$LAUNCHER_DOWNLOAD_URL" ]; then
+  echo "Jar file can't be found!"
   exit 1
 fi
 
-echo "Downloading zip file..."
-curl -L -o "release.zip" $DOWNLOAD_URL
+echo "Downloading the launcher file..."
+curl -L -o "smoothcloud-launcher.jar" $LAUNCHER_DOWNLOAD_URL
+echo "Downloaded the launcher file."
 
-echo "Unzipping zip file..."
-unzip -q release.zip
+if [ -z "$START_SCRIPT_URL" ]; then
+  echo "Script file can't be found!"
+  exit 1
+fi
 
-echo "Removing zip file..."
-rm release.zip
+echo "Downloading the start script file..."
+curl -L -o "start.sh" $START_SCRIPT_URL
+echo "Downloaded the start script file."
 
 echo "Done."
