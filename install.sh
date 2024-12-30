@@ -3,10 +3,10 @@
 REPO_URL="https://github.com/SmoothCloudEU/smoothcloud"
 
 API_URL="https://api.github.com/repos/SmoothCloudEU/smoothcloud/releases/latest"
-MANIFEST_URL="https://github.com/SmoothCloudEU/smoothcloud-manifest/raw/refs/heads/master/"
+START_SCRIPT_URL="https://github.com/SmoothCloudEU/smoothcloud-manifest/raw/refs/heads/master/start.sh"
 
 LAUNCHER_DOWNLOAD_URL=$(curl -s $API_URL | jq -r '.assets[] | select(.name | endswith(".jar")) | .browser_download_url')
-START_SCRIPT_URL=$(curl -s $MANIFEST_URL + "start.sh")
+START_SCRIPT_URL=$(curl -s $START_SCRIPT_URL)
 
 if [ -z "$LAUNCHER_DOWNLOAD_URL" ]; then
   echo "Jar file can't be found!"
