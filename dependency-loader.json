@@ -11,9 +11,52 @@
   ],
   "dependencies": [
     {
+      "groupId": "io.netty",
+      "artifactId": "netty5-all",
+      "version": "5.0.0.Alpha5",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "org.projectlombok",
+      "artifactId": "lombok",
+      "version": "1.18.36",
+      "repository": "maven-central"
+    },
+    {
       "groupId": "org.jline",
       "artifactId": "jline",
-      "version": "3.28.0"
+      "version": "3.28.0",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "org.tomlj",
+      "artifactId": "tomlj",
+      "version": "1.1.1",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "org.json",
+      "artifactId": "json",
+      "version": "20240303",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "org.antlr",
+      "artifactId": "antlr4-runtime",
+      "version": "4.11.1",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "com.squareup",
+      "artifactId": "javapoet",
+      "version": "1.13.0",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "eu.smoothcloud",
+      "artifactId": "smoothcloud-node",
+      "version": "1.0.0-dev",
+      "repository": "smoothcloud-cdn"
     }
   ]
 }
