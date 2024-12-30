@@ -55,7 +55,7 @@
     {
       "groupId": "eu.smoothcloud",
       "artifactId": "smoothcloud-node",
-      "version": "1.0.0-dev.1fd8197",
+      "version": "1.0.0-dev.70bc058",
       "repository": "smoothcloud-repo"
     }
   ]
