@@ -17,6 +17,18 @@
       "repository": "maven-central"
     },
     {
+      "groupId": "io.netty",
+      "artifactId": "netty5-transport-classes-epoll",
+      "version": "5.0.0.Alpha5",
+      "repository": "maven-central"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty5-handler",
+      "version": "5.0.0.Alpha5",
+      "repository": "maven-central"
+    },
+    {
       "groupId": "org.projectlombok",
       "artifactId": "lombok",
       "version": "1.18.36",
@@ -53,8 +65,44 @@
       "repository": "maven-central"
     },
     {
+      "groupId": "it.unimi.dsi",
+      "artifactId": "fastutil",
+      "version": "8.5.15",
+      "repository": "maven-central"
+    },
+    {
       "groupId": "eu.smoothcloud",
       "artifactId": "smoothcloud-node",
+      "version": "1.0.0-dev.16fa932",
+      "repository": "smoothcloud-repo"
+    },
+    {
+      "groupId": "eu.smoothcloud",
+      "artifactId": "smoothcloud-util",
+      "version": "1.0.0-dev.16fa932",
+      "repository": "smoothcloud-repo"
+    },
+    {
+      "groupId": "eu.smoothcloud",
+      "artifactId": "smoothcloud-chain",
+      "version": "1.0.0-dev.16fa932",
+      "repository": "smoothcloud-repo"
+    },
+    {
+      "groupId": "eu.smoothcloud",
+      "artifactId": "smoothcloud-manager",
+      "version": "1.0.0-dev.16fa932",
+      "repository": "smoothcloud-repo"
+    },
+    {
+      "groupId": "eu.smoothcloud",
+      "artifactId": "smoothcloud-api",
+      "version": "1.0.0-dev.16fa932",
+      "repository": "smoothcloud-repo"
+    },
+    {
+      "groupId": "eu.smoothcloud",
+      "artifactId": "smoothcloud-worker",
       "version": "1.0.0-dev.16fa932",
       "repository": "smoothcloud-repo"
     }
