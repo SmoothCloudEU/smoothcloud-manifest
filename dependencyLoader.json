@@ -96,12 +96,6 @@
     },
     {
       "groupId": "eu.smoothcloud",
-      "artifactId": "smoothcloud-api",
-      "version": "1.0.0-dev.16fa932",
-      "repository": "smoothcloud-repo"
-    },
-    {
-      "groupId": "eu.smoothcloud",
       "artifactId": "smoothcloud-worker",
       "version": "1.0.0-dev.16fa932",
       "repository": "smoothcloud-repo"
