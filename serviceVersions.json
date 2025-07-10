@@ -214,24 +214,25 @@
         "url": "https://fill-data.papermc.io/v1/objects/15a5821ddeacc596432c3fbf24262a2d264f556060ecd6f1838fb01ab5629a81/paper-1.9.4-775.jar"
       }
     },
+    "PUFFERFISH": null,
     "PURPUR": {
       "1_14_1": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.1/50/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.1/63/download"
       },
       "1_14_2": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.2/106/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.2/126/download"
       },
       "1_14_3": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.3/200/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.3/202/download"
       },
       "1_14_4": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.4/300/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.4/337/download"
       },
       "1_15": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.15/340/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.15/346/download"
       },
       "1_15_1": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.15.1/380/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.15.1/397/download"
       },
       "1_15_2": {
         "url": "https://api.purpurmc.org/v2/purpur/1.15.2/606/download"
