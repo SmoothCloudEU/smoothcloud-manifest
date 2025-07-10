@@ -216,22 +216,22 @@
     },
     "PURPUR": {
       "1_14_1": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.1/63/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.1/50/download"
       },
       "1_14_2": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.2/126/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.2/106/download"
       },
       "1_14_3": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.3/202/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.3/200/download"
       },
       "1_14_4": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.14.4/337/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.14.4/300/download"
       },
       "1_15": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.15/346/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.15/340/download"
       },
       "1_15_1": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.15.1/397/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.15.1/380/download"
       },
       "1_15_2": {
         "url": "https://api.purpurmc.org/v2/purpur/1.15.2/606/download"
