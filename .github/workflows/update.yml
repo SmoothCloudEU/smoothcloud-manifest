@@ -19,7 +19,7 @@ jobs:
 
       - name: Build Go binary for Linux amd64
         working-directory: ./updater
-        run: GOOS=linux GOARCH=amd64 go build -o update ./update.go
+        run: GOOS=linux GOARCH=amd64 go build -o update ./main.go
 
       - name: Copy update binary to repository root
         run: cp ./updater/update ./update
