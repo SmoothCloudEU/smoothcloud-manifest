@@ -214,14 +214,6 @@
         "url": "https://fill-data.papermc.io/v1/objects/15a5821ddeacc596432c3fbf24262a2d264f556060ecd6f1838fb01ab5629a81/paper-1.9.4-775.jar"
       }
     },
-    "PUFFERFISH": {
-      "1_20_4": {
-        "url": "https://ci.pufferfish.host/job/Pufferfish-1.20/52/artifact/build/libs/pufferfish-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar"
-      },
-      "1_21_3": {
-        "url": "https://ci.pufferfish.host/job/Pufferfish-1.21/27/artifact/build/libs/pufferfish-paperclip-1.21.3-R0.1-SNAPSHOT-mojmap.jar"
-      }
-    },
     "PURPUR": {
       "1_14_1": {
         "url": "https://api.purpurmc.org/v2/purpur/1.14.1/63/download"
