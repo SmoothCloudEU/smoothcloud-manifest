@@ -17,6 +17,13 @@ jobs:
         with:
           go-version: "1.24"
 
+      - name: Build Go binary for Linux amd64
+        working-directory: ./updater
+        run: GOOS=linux GOARCH=amd64 go build -o update ./update.go
+
+      - name: Copy update binary to repository root
+        run: cp ./updater/update ./update
+
       - name: Run update binary
         run: ./update
 
