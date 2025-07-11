@@ -434,6 +434,7 @@ func main() {
 	updatePaperMCProject("waterfall", data.Proxy.Waterfall)
 	updatePurpurProject(data.Server.Purpur)
 	updateSpigotProject(data.Server.Spigot)
+	updateSpigotProject(data.Server.Pufferfish)
 	updateVanillaReleaseProject(data.Server.Vanilla)
 
 	// Write file back
