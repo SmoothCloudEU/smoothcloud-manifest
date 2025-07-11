@@ -345,6 +345,7 @@
         "url": "https://fill-data.papermc.io/v1/objects/917a8abaa542c1d0ef0e969693e227a7bfe1c42e671aaa806309e00a64efc234/folia-1.21.6-6.jar"
       }
     },
+    "SPIGOT": null,
     "VANILLA": {
       "1_10": {
         "url": "https://piston-data.mojang.com/v1/objects/a96617ffdf5dabbb718ab11a9a68e50545fc5bee/server.jar"
