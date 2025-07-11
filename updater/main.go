@@ -103,6 +103,9 @@ func getProjectLatestDownloadURL(project, version string) (string, error) {
 
 // Universal updater for a PaperMC project
 func updatePaperMCProject(project string, versionMap VersionMap) {
+	if versionMap == nil {
+		versionMap = make(VersionMap)
+	}
 	fmt.Printf("== Checking %s ==\n", strings.Title(project))
 	versions, err := getPaperLikeVersions(project)
 	if err != nil {
@@ -153,6 +156,9 @@ func getPurpurLatestBuildURL(version string) (string, error) {
 
 // Universal updater for Purpur
 func updatePurpurProject(versionMap VersionMap) {
+	if versionMap == nil {
+		versionMap = make(VersionMap)
+	}
 	fmt.Println("== Checking Purpur ==")
 	versions, err := getPurpurVersions()
 	if err != nil {
@@ -254,6 +260,9 @@ func getVanillaDownloadURL(version string) (string, error) {
 }
 
 func updateVanillaReleaseProject(versionMap VersionMap) {
+	if versionMap == nil {
+		versionMap = make(VersionMap)
+	}
 	fmt.Println("== Checking Vanilla (Releases only) ==")
 	versions, err := getVanillaReleaseVersions()
 	if err != nil {
@@ -309,6 +318,9 @@ func getSpigotVersionsAndURLs() (map[string]string, error) {
 }
 
 func updateSpigotProject(versionMap VersionMap) {
+	if versionMap == nil {
+		versionMap = make(VersionMap)
+	}
 	fmt.Println("== Checking Spigot ==")
 	versions, err := getSpigotVersionsAndURLs()
 	if err != nil {
