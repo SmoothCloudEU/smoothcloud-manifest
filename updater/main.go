@@ -27,6 +27,7 @@ type ServiceVersions struct {
 		Pufferfish VersionMap `json:"PUFFERFISH"`
 		Purpur     VersionMap `json:"PURPUR"`
 		Folia      VersionMap `json:"FOLIA"`
+		Spigot     VersionMap `json:"SPIGOT"`
 		Vanilla    VersionMap `json:"VANILLA"`
 	} `json:"SERVER"`
 }
@@ -279,6 +280,63 @@ func updateVanillaReleaseProject(versionMap VersionMap) {
 	}
 }
 
+// Holt alle verfügbaren Spigot-Versionen und deren Download-URL von mcjars.app
+func getSpigotVersionsAndURLs() (map[string]string, error) {
+	api := "https://mcjars.app/api/v2/builds/spigot"
+	var response struct {
+		Success bool `json:"success"`
+		Builds  map[string]struct {
+			Latest struct {
+				JarUrl string `json:"jarUrl"`
+			} `json:"latest"`
+		} `json:"builds"`
+	}
+	resp, err := http.Get(api)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+	if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+		return nil, err
+	}
+	versions := make(map[string]string)
+	for version, build := range response.Builds {
+		if build.Latest.JarUrl != "" {
+			versions[version] = build.Latest.JarUrl
+		}
+	}
+	return versions, nil
+}
+
+func updateSpigotProject(versionMap VersionMap) {
+	fmt.Println("== Checking Spigot ==")
+	versions, err := getSpigotVersionsAndURLs()
+	if err != nil {
+		fmt.Printf("Spigot: Error loading versions: %v\n", err)
+		return
+	}
+	// Sortiere die Keys (Versionen) absteigend
+	var keys []string
+	for v := range versions {
+		keys = append(keys, v)
+	}
+	sort.Slice(keys, func(i, j int) bool { return keys[i] > keys[j] })
+	for _, v := range keys {
+		key := versionToKey(v)
+		url := versions[v]
+		if entry, ok := versionMap[key]; !ok || entry.URL != url {
+			if ok {
+				fmt.Printf("Spigot %s: Updated download URL.\n", v)
+			} else {
+				fmt.Printf("Spigot %s: Added missing version.\n", v)
+			}
+			versionMap[key] = Entry{URL: url}
+		} else {
+			fmt.Printf("Spigot %s: Already up to date.\n", v)
+		}
+	}
+}
+
 // For pretty JSON keys (replace . with _)
 func versionToKey(version string) string {
 	return strings.ReplaceAll(version, ".", "_")
@@ -303,6 +361,7 @@ func main() {
 	updatePaperMCProject("velocity", data.Proxy.Velocity)
 	updatePaperMCProject("waterfall", data.Proxy.Waterfall)
 	updatePurpurProject(data.Server.Purpur)
+	updateSpigotProject(data.Server.Spigot)
 	updateVanillaReleaseProject(data.Server.Vanilla)
 
 	// Write file back
