@@ -394,7 +394,11 @@
         "url": "https://fill-data.papermc.io/v1/objects/917a8abaa542c1d0ef0e969693e227a7bfe1c42e671aaa806309e00a64efc234/folia-1.21.6-6.jar"
       }
     },
-    "LEAF": null,
+    "LEAF": {
+      "1_20_4": {
+        "url": "https://s3.mcjars.app/leaf/1.20.4/1.20.4-6d332992/server.jar"
+      }
+    },
     "SPIGOT": {
       "1_10": {
         "url": "https://s3.mcjars.app/spigot/1.10/886/server.jar"
