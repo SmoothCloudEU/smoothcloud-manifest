@@ -217,6 +217,51 @@
     "PUFFERFISH": {
       "1_17_1": {
         "url": "https://ci.pufferfish.host/job/Pufferfish-1.17/22/artifact/build/libs/Pufferfish-1.17.1-R0.1-SNAPSHOT.jar"
+      },
+      "1_18": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.18/11/artifact/build/libs/pufferfish-paperclip-1.18-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_18_1": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.18/47/artifact/build/libs/pufferfish-paperclip-1.18.1-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_18_2": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.18/72/artifact/build/libs/pufferfish-paperclip-1.18.2-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_19": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.19/25/artifact/build/libs/pufferfish-paperclip-1.19-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_19_1": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.19/29/artifact/build/libs/pufferfish-paperclip-1.19.1-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_19_2": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.19/47/artifact/build/libs/pufferfish-paperclip-1.19.2-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_19_3": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.19/61/artifact/build/libs/pufferfish-paperclip-1.19.3-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_19_4": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.19/73/artifact/build/libs/pufferfish-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_20_1": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.20/27/artifact/build/libs/pufferfish-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_20_2": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.20/35/artifact/build/libs/pufferfish-paperclip-1.20.2-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_20_4": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.20/52/artifact/build/libs/pufferfish-paperclip-1.20.4-R0.1-SNAPSHOT-reobf.jar"
+      },
+      "1_21": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.21/8/artifact/build/libs/pufferfish-paperclip-1.21-R0.1-SNAPSHOT-mojmap.jar"
+      },
+      "1_21_1": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.21/21/artifact/build/libs/pufferfish-paperclip-1.21.1-R0.1-SNAPSHOT-mojmap.jar"
+      },
+      "1_21_3": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.21/27/artifact/build/libs/pufferfish-paperclip-1.21.3-R0.1-SNAPSHOT-mojmap.jar"
+      },
+      "1_21_7": {
+        "url": "https://ci.pufferfish.host/job/Pufferfish-1.21/29/artifact/pufferfish-server/build/libs/pufferfish-paperclip-1.21.7-R0.1-SNAPSHOT-mojmap.jar"
       }
     },
     "PURPUR": {
