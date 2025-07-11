@@ -397,6 +397,24 @@
     "LEAF": {
       "1_20_4": {
         "url": "https://s3.mcjars.app/leaf/1.20.4/1.20.4-6d332992/server.jar"
+      },
+      "1_21_1": {
+        "url": "https://s3.mcjars.app/leaf/1.21.1/1.21.1-24093972/server.jar"
+      },
+      "1_21_3": {
+        "url": "https://s3.mcjars.app/leaf/1.21.3/1.21.3-e380e4b5/server.jar"
+      },
+      "1_21_4": {
+        "url": "https://s3.mcjars.app/leaf/1.21.4/512/server.jar"
+      },
+      "1_21_5": {
+        "url": "https://s3.mcjars.app/leaf/1.21.5/68/server.jar"
+      },
+      "1_21_6": {
+        "url": "https://s3.mcjars.app/leaf/1.21.6/28/server.jar"
+      },
+      "1_21_7": {
+        "url": "https://s3.mcjars.app/leaf/1.21.7/35/server.jar"
       }
     },
     "SPIGOT": {
