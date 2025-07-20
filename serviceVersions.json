@@ -371,7 +371,7 @@
         "url": "https://api.purpurmc.org/v2/purpur/1.21.7/2477/download"
       },
       "1_21_8": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2478/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2479/download"
       }
     },
     "FOLIA": {
@@ -420,10 +420,10 @@
         "url": "https://s3.mcjars.app/leaf/1.21.6/28/server.jar"
       },
       "1_21_7": {
-        "url": "https://s3.mcjars.app/leaf/1.21.7/50/server.jar"
+        "url": "https://s3.mcjars.app/leaf/1.21.7/51/server.jar"
       },
       "1_21_8": {
-        "url": "https://s3.mcjars.app/leaf/1.21.8/6/server.jar"
+        "url": "https://s3.mcjars.app/leaf/1.21.8/12/server.jar"
       }
     },
     "SPIGOT": {
@@ -575,7 +575,7 @@
         "url": "https://s3.mcjars.app/spigot/1.21.7/4522/server.jar"
       },
       "1_21_8": {
-        "url": "https://s3.mcjars.app/spigot/1.21.8/4523/server.jar"
+        "url": "https://s3.mcjars.app/spigot/1.21.8/4524/server.jar"
       },
       "1_8": {
         "url": "https://s3.mcjars.app/spigot/1.8/343/server.jar"
