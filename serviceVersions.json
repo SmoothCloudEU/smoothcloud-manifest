@@ -426,7 +426,7 @@
         "url": "https://s3.mcjars.app/leaf/1.21.7/52/server.jar"
       },
       "1_21_8": {
-        "url": "https://s3.mcjars.app/leaf/1.21.8/26/server.jar"
+        "url": "https://s3.mcjars.app/leaf/1.21.8/28/server.jar"
       }
     },
     "SPIGOT": {
@@ -578,7 +578,7 @@
         "url": "https://s3.mcjars.app/spigot/1.21.7/4522/server.jar"
       },
       "1_21_8": {
-        "url": "https://s3.mcjars.app/spigot/1.21.8/4524/server.jar"
+        "url": "https://s3.mcjars.app/spigot/1.21.8/4525/server.jar"
       },
       "1_8": {
         "url": "https://s3.mcjars.app/spigot/1.8/343/server.jar"
