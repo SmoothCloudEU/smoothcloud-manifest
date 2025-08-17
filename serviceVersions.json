@@ -377,7 +377,7 @@
         "url": "https://api.purpurmc.org/v2/purpur/1.21.7/2477/download"
       },
       "1_21_8": {
-        "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2489/download"
+        "url": "https://api.purpurmc.org/v2/purpur/1.21.8/2490/download"
       }
     },
     "FOLIA": {
@@ -432,7 +432,7 @@
         "url": "https://s3.mcjars.app/leaf/1.21.7/53/server.jar"
       },
       "1_21_8": {
-        "url": "https://s3.mcjars.app/leaf/1.21.8/77/server.jar"
+        "url": "https://s3.mcjars.app/leaf/1.21.8/79/server.jar"
       }
     },
     "SPIGOT": {
